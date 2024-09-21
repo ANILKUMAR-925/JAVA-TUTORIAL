@@ -11,19 +11,22 @@ public class SwapTwoArray {
         int[] arr2 = new int[size];
         int i;
         System.out.print("enter the elements of the first array : ");
-        for(i=0;i<size;i++){
-            arr1[i] = sc.nextInt();
-        }
+        input(arr1, size);
         System.out.print("enter the elements of the second array : ");
-        for(i=0;i<size;i++){
-            arr2[i] = sc.nextInt();
-        }
+        input(arr2, size);
         swap(arr1,arr2);
         System.out.print("elements of the first array are : ");
         display(arr1);
         System.out.println();
         System.out.print("elements of the second array are : ");
         display(arr2);
+    }
+    static void input(int[] arr, int size){
+        Scanner sc = new Scanner(System.in);
+        int i;
+        for(i=0;i<size;i++){
+            arr[i] = sc.nextInt();
+        }
     }
     static void swap(int[] arr1, int[] arr2){
         int i;

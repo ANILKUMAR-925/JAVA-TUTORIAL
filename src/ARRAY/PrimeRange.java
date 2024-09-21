@@ -19,9 +19,6 @@ public class PrimeRange {
                 if(i==0 || i==1){
                     continue;
                 }
-                else if(i == 2){
-                    arr[k++]=i;
-                }
                 else{
                     boolean check = true;
                     for(j=2; j<=i/2; j++){

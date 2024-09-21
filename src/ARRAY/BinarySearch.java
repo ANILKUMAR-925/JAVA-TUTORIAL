@@ -9,7 +9,7 @@ public class BinarySearch {
         int size = sc.nextInt();
         int[] arr = new int[size];
         int i;
-        System.out.println("enter the array elements ascending order : ");
+        System.out.println("enter the array elements in ascending order  : ");
         for (i = 0; i < size; i++) {
             arr[i] = sc.nextInt();
         }

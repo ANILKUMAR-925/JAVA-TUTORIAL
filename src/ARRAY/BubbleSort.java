@@ -8,7 +8,7 @@ public class BubbleSort {
         System.out.print("enter the size of the array : ");
         int size = sc.nextInt();
         int[] arr = new int[size];
-        int i,j;
+        int i;
         System.out.println("enter the elements of the array ; ");
         for(i=0; i<size; i++){
             arr[i] = sc.nextInt();

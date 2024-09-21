@@ -1,4 +1,4 @@
-//program  to find ho w many times each elements of the array is present in the array
+//program  to find how many times each elements of the array is present in the array
 
 package ARRAY;
 import java.util.*;
@@ -8,7 +8,7 @@ public class CountTimes {
         System.out.print("enter the size of the array : ");
         int size = sc.nextInt();
         int[] arr = new int[size];
-        int i,j;
+        int i;
         System.out.println("enter the elements of the array : ");
         for(i=0; i<size; i++){
             arr[i] = sc.nextInt();
