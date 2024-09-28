@@ -5,31 +5,23 @@ import java.util.*;
 public class AddMatrix {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        System.out.print("enter the number of rows and columns of the first matrix : ");
-        int row1 = sc.nextInt();
-        int col1 = sc.nextInt();
-        System.out.print("enter the number of rows and columns of the second matrix : ");
-        int row2 = sc.nextInt();
-        int col2 = sc.nextInt();
-        if(row1 != row2 && col1 != col2){
-            System.out.println("can not add the matrices");
-        }
-        else{
-            int[][] mat1 = new int[row1][col1];
-            int[][] mat2 = new int[row2][col2];
-            int[][] res = new int[row1][col1];
-            System.out.println("enter the elements of the first matrix : ");
-            inputMatrix(mat1,row1,col1);
-            System.out.println("entered matrix is : ");
-            display(mat1, row1, col1);
-            System.out.println("enter the elements of the second matrix : ");
-            inputMatrix(mat2,row2,col2);
-            System.out.println("entered matrix is : ");
-            display(mat2, row2, col2);
-            add(mat1, mat2, res, row1, col1);
-            System.out.println("addition of  matrix is : ");
-            display(res, row1, col1);
-        }
+        System.out.print("enter the number of rows and columns of the matrix : ");
+        int row = sc.nextInt();
+        int col = sc.nextInt();
+        int[][] mat1 = new int[row][col];
+        int[][] mat2 = new int[row][col];
+        int[][] res = new int[row][col];
+        System.out.println("enter the elements of the first matrix : ");
+        inputMatrix(mat1,row,col);
+        System.out.println("entered matrix is : ");
+        display(mat1, row, col);
+        System.out.println("enter the elements of the second matrix : ");
+        inputMatrix(mat2, row, col);
+        System.out.println("entered matrix is : ");
+        display(mat2, row, col);
+        add(mat1, mat2, res, row, col);
+        System.out.println("addition of  matrix is : ");
+        display(res, row, col);
     }
     static   void inputMatrix(int[][] mat, int row, int col){
         Scanner sc = new Scanner(System.in);

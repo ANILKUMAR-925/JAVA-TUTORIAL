@@ -16,7 +16,7 @@ class Stack{
         }
         return false;
     }
-    boolean isEmpty(){
+    boolean isEmpty(){ 
         if(top == -1){
             return true;
         }
