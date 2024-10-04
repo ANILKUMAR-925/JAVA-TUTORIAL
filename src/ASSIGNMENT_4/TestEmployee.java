@@ -2,11 +2,11 @@
 
 package ASSIGNMENT_4;
 
-class Employee{
+class Employees{
     String empName;
     int empNo;
     float basicSalary, da, hra, grossSalary;
-    Employee(String empName, int empNo, float basicSalary){
+    Employees(String empName, int empNo, float basicSalary){
         this.empName = empName;
         this.empNo = empNo;
         this.basicSalary = basicSalary;
@@ -23,8 +23,8 @@ class Employee{
 }
 public class TestEmployee {
     public static void main(String[] args) {
-        Employee a1 = new Employee("Ram", 1, 50000);
-        Employee a2 = new Employee("Shyam", 2, 40000);
+        Employees a1 = new Employees("Ram", 1, 50000);
+        Employees a2 = new Employees("Shyam", 2, 40000);
         System.out.printf("%-15s %-10s %-10s %-10s %-10s %-10s%n", "NAME", "EMPNO", "BASIC" , "DA", "HRA", "GROSS");
         a1.showEmpDetails();
         a2.showEmpDetails();
