@@ -43,7 +43,7 @@ public class TimeTest {
         }
         Time res = new Time();
         res = res.add(t);
-        System.out.println("addion of time is : ");
+        System.out.println("addition of time is : ");
         res.display();
     }
 }
