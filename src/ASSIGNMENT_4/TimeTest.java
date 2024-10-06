@@ -4,7 +4,7 @@ package ASSIGNMENT_4;
 import java.util.*;
 class Time{
     int hour,min,sec;
-    Time(){};
+    Time(){}
     Time(int hour, int min, int sec){
         this.hour = hour;
         this.min = min;
