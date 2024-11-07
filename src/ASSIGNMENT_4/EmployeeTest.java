@@ -2,7 +2,7 @@
 
 package ASSIGNMENT_4;
 import java.util.*;
-class Employee_s{
+class  Employee_s{
     String empName;
     int empNo;
     float basicSal,da,hra,grossSal;
