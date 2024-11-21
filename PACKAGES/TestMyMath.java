@@ -1,5 +1,5 @@
 import btech.arithmatic.MyMath;
-import java.ut
+import java.util.*;
 
 class TestMyMath{
     public static void main(String[] args) {
