@@ -7,7 +7,7 @@ class TestMyMath{
         System.out.println("enter two numbers : ");
         int a = sc.nextInt();
         int b = sc.nextInt();
-        MyMath m = new MyMath();
+        MyMath m = new MyMath();     
         m.add(a, b); 
         m.sub(a, b);
         m.mult(a, b);

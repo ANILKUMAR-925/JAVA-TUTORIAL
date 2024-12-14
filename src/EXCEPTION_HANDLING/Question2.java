@@ -54,12 +54,7 @@ public class Question2 {
         }
         System.out.println("enter the amount to deposit : ");
         int amt = sc.nextInt();
-        try{
-            acc[0].deposit(amt);
-        }
-        catch(Exception e){
-            System.out.println(e);
-        }
+        acc[0].deposit(amt);
         System.out.println("enter the amount to withdraw : ");
         amt = sc.nextInt();
         try{
