@@ -30,7 +30,7 @@ public class Question3 {
         }
         System.out.println("names after sorting : ");
         for (i=0; i<names.length; i++){
-            System.out.println(names[i] + " ");
+            System.out.print(names[i] + " ");
         }
         System.out.println();
     }
