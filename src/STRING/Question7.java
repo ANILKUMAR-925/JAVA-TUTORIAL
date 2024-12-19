@@ -14,6 +14,7 @@ public class Question7 {
             }
             else if(str.charAt(i)==' ' && (int) str.charAt(i+1) >= 97){
                 str.setCharAt(i+1, (char) ((int) str.charAt(i+1) - 32));
+                i++;
             }
         }
         System.out.println(str);
